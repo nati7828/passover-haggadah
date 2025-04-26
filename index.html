@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>פסח קוויז: האתגר הגדול!</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button id="refresh-btn" class="refresh-btn" title="משחק חדש">↻</button>
+      <h1>פסח קוויז: האתגר הגדול!</h1>
+      <p>השיבו על שאלות ותראו כמה אתם יודעים על פסח!</p>
+
+      <div id="quiz-container">
+        <div id="question"></div>
+        <div id="answers" class="answers-container"></div>
+
+        <div id="timer-container">
+          זמן שנותר: <span id="timer">10</span> שניות
+        </div>
+        <div id="score">ניקוד: 0</div>
+
+        <div class="buttons-container">
+          <button id="next-btn" class="small-btn" style="display: none">
+            שאלה הבאה
+          </button>
+          <button id="share-btn" class="small-btn" style="display: none">
+            שתף את התוצאה
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
