@@ -240,7 +240,8 @@ document.addEventListener('DOMContentLoaded', () => {
   refreshButton.addEventListener('click', resetGame);
 
   shareButton.addEventListener('click', () => {
-    const shareText = `שיחקתי ב"פסח קוויז: האתגר הגדול!" וקיבלתי ציון של ${score} :מתוך 10 שאלות. נסו גם אתם בקישור הבא: https://cozy-mandazi-f53def.netlify.app/`;
+    const shareText = `שיחקתי ב"פסח קוויז: האתגר הגדול!" וקיבלתי ציון של ${score} :מתוך 10 שאלות. נסו גם אתם בקישור הבא: 
+    https://cozy-mandazi-f53def.netlify.app/`;
     const shareUrl = `https://twitter.com/intent/tweet?text=${encodeURIComponent(
       shareText
     )}`;
